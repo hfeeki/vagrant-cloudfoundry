@@ -45,6 +45,7 @@ First, use veewee to create the Virtualbox image:
 
     cd veewee
     vagrant basebox build ubuntu-10.04.2-cloud-foundry
+    vagrant basebox export ubuntu-10.04.2-cloud-foundry
     cd -
 
 Next, run Vagrant:
